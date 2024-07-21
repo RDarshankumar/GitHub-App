@@ -8,11 +8,33 @@
   background-color: black;
   padding: 0.5rem;
   color: white;
+  display: flex;
+  justify-content: space-between;
   
+  
+}
+a{
+  text-decoration: none;
+}
+.navbar ul{
+  display: flex;
+  list-style: none;
+  margin-top: 0.5rem;
 }
 .navbar i{
   font-size: 2rem;
 }
 .navbar h1{
   font-size: 2rem;
+}
+.navbar ul li a{
+  color: #eee;
+  padding: 1rem;
+  font-size: 1.2rem;
+  transition: all 0.2s ease-in;
+  
+
+}
+.navbar ul li a:hover{
+background-color: #49D9EF;
 }
